@@ -1,0 +1,317 @@
+/* headerwrap */
+
+.special { float: right; }
+
+.line { width: 100%; float: left; border-bottom: 1px solid #EAEAEA;  }
+
+.net { padding-bottom: 192px; width: auto; float: left; }
+
+.add.new { background: url(../images/right_bg.jpg) repeat-y; }
+
+.net.second { padding-bottom: 25px; }
+
+.sidebar.last.net { float: left; }
+
+.centercol.vat { width: 69%; }
+
+.add.new.let { background: url(../images/columns_bg2.png) left top repeat-y; }
+
+.net.second.non { border-right: none; }
+
+.now_page.het { border-bottom: none; }
+
+.net.second.wel { width: 100%; border: none; }
+
+.cols4.diff .col4 { padding: 0 0 0 0px; width: 100%; }
+
+.cols4.diff { padding: 0 0 35px 10px; width: auto; }
+
+.centercol.full { width: 100%; }
+
+.now_page.none { border-bottom: none; }
+
+.content_box.no_border { padding-top: 0px; padding-bottom: 25px; }
+
+#now_slider { padding: 15px!important; }
+
+
+
+/*
+
+* Skeleton V1.2
+
+* Copyright 2011, Dave Gamache
+
+* www.getskeleton.com
+
+* Free to use under the MIT license.
+
+* http://www.opensource.org/licenses/mit-license.php
+
+* 6/20/2012
+
+*/
+
+
+
+/* Table of Content
+
+==================================================
+
+	#Site Styles
+
+	#Page Styles
+
+	#Media Queries
+
+	#Font-Face */
+
+
+
+/* #Site Styles
+
+================================================== */
+
+
+
+/* #Page Styles
+
+================================================== */
+
+
+
+/* #Media Queries
+
+================================================== */
+
+
+
+	/* Smaller than standard 960 (devices and browsers) */
+
+	@media only screen and (max-width: 959px) {
+
+		.container .col4 { width: 17%; padding: 20px 30px; }
+
+		.container .col4.cls_act.border_right_block.add { padding-bottom: 0px; }
+
+		.container .col3 { width: 28%; }
+
+		.content_resize .add.new { background: url(../images/right_bg.jpg) -133px top repeat-y; }
+
+		.add.new.let { background: url(../images/columns_bg2.png) -133px top repeat-y; }
+
+		.menu ul li a.ms_top span { padding:41px 18px 45px !important;}
+
+		}
+
+		
+
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		#controls { right: 6%!important; }
+
+		#slider-wrapper object { width: 100%; height: 350px; }
+				
+
+
+		}
+
+
+
+	/* All Mobile Sizes (devices and browser) */
+
+	@media only screen and (max-width: 767px) {
+
+		#slider-wrapper object { width: 100%; height: 280px; }
+
+		#panel_setting_side { position: absolute !important; top: 30% !important; z-index: 9999 !important; }
+
+		.menu { margin:0px; padding:0px; width: 100%;}
+
+		.menu ul { display: none; }
+
+		.menu select { display: block; width: 100%; margin:20px 0 0 0; }
+
+		.container .search { float: left; }
+
+		.container .social { margin-left: 0px; }
+
+		.container .social img { margin-right: 5px; }
+
+		.container .logo { padding: 25px 149px 0 149px; }
+
+		.container .header_menu { margin-top: 10px; }
+
+		.container .smallnav { margin: 10px 0; float: left; width: 100%; }
+
+		.container .col4 { width: 85%; }
+
+		.container .flickr a img { margin: 10px 49px 0 0; }
+
+		.container .col3 { width: 27%; }
+
+		.container .line { margin-right: 1px; width: auto; }
+
+		.container .sidebar_flickr, .sidebar_text, .sidebar_testom, .sidebar_twit, .sidebar_recent { margin-right: 2px; width: auto; }
+
+		.container .centercol { width: 100%; }
+
+		.container .sidebar.last { float: left; background: #fafafa; }
+
+		.container .sidebar { width: 100%; }
+
+		.container .net { padding-bottom: 0; }
+
+		.content_resize .add.new { background: none; }
+
+		.container #coment img { float: none; }
+
+		.container #coment2 img { float: none; }
+
+		.container #coment .podpis { float: none; }
+
+		.container #coment2 .podpis { float: none; }
+
+		.container #coment2 { margin-left: 0px; }
+
+		.container #coment3 { margin-left: 0px; }
+
+		.container #coment3 img { float: none; }
+
+		.container #coment3 .podpis { float: none; }
+
+		.container .pic.fl { float: none;  }
+
+		.add.new.let { background: none; }
+
+		.container .cols1 .img_hover_box.pic a { height: 214px; }
+
+		.container .content_box.some { padding: 30px 0 0 0px; width: auto; }
+
+		.container .net.second { border-right: none; }
+
+		.container .cols2 .img_hover_box.pic a { width: 90%; }
+
+		.container .cols2 { padding: 0 0 0 20px; width: auto; }
+
+		.container .content_box.some { width: 95%; }
+
+		.container .content_box.some h2 { padding-left: 22px; }
+
+		.container .col3.nex { margin-right: 20px; }
+
+		.net.second.wel .cols3 { margin-left: 30px; width: auto; }
+
+		.container .cols4.diff .img_hover_box.pic a img { width: 95%; }
+
+		.img_hover_box.pic a img.h { display: none;}
+
+		.img_hover_box.pic a img.r_plus_overlay { display: none;}
+
+		.img_hover_box.pic a img.r_plus { display: none;}
+
+		#webstore-navigation li { float:none !important; margin: 5px 0 0 0 !important;}
+
+		#catalogue .last-column > div { margin:5px 0 0 0 !important;}
+
+		#catalogue .product { float:none !important; width: auto !important;}
+
+		#webstore { min-width: auto !important;}
+
+
+
+		}
+
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		#controls { right: 8%!important; }
+
+		}
+
+
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+	@media only screen and (max-width: 479px) {
+
+		#panel_setting_side { position: absolute !important; top: 30% !important; z-index: 9999 !important; }
+
+		.container .header_block div { display: block!important; }
+
+		.container .logo { padding: 25px 100px 0 100px; }
+
+		.container .col4 { width: 79%; }
+
+		.container .flickr a img { margin: 4px 42px 0 0; }
+
+		.container .col3 { width: 100%; }
+
+		.container .content_box { padding-right: 15px; }
+
+		.container .pic.fr { margin-left: 0px; }
+
+		.container .pic img { width: 100%; }
+
+		.container .cols1 .img_hover_box.pic a { height: 152px; }
+
+		.container .content_box.some { width: 95%; }
+
+		.container .cols2 { padding: 0 0 0 15px; width: auto; }
+
+		.net.second.wel .cols3 { margin-left: 17px; width: auto; }
+
+		.container .cols4.diff { padding-left: 6px; }
+
+		.container .content_box { padding: 15px 15px 15px 13px; }
+
+		#slider-wrapper object { width: 100%; height: 240px; }
+
+		}
+
+		
+
+
+
+
+
+/* #Font-Face
+
+================================================== */
+
+/* 	This is the proper syntax for an @font-face file
+
+		Just create a "fonts" folder at the root,
+
+		copy your FontName into code below and remove
+
+		comment brackets */
+
+
+
+/*	@font-face {
+
+	    font-family: 'FontName';
+
+	    src: url('../fonts/FontName.eot');
+
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+
+	         url('../fonts/FontName.woff') format('woff'),
+
+	         url('../fonts/FontName.ttf') format('truetype'),
+
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+
+	    font-weight: normal;
+
+	    font-style: normal; }
+
+*/
